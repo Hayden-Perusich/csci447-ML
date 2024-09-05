@@ -101,7 +101,6 @@ def main():
         # Instantiate ProbabilityTable with the training data
         pt = NaiveBayesClassifier.ProbabilityTable(classifier.training_data)
         data = pt.generate_probability_table()
-        print(data)
 
 
 if __name__ == "__main__":
